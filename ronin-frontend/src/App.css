@@ -1,38 +1,111 @@
-.App {
+/* Global CSS */
+:root {
+  --primary-color: #000000; /* Black */
+  --secondary-color: #d16e6e; /* Black */
+  --accent-color: #a62929; /* Red */
+  --background-color: #17151c; /* Dark background */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.mma-timetable-header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main Content */
+.mma-timetable-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Footer */
+.mma-timetable-footer {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Table */
+.mma-timetable-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  border: 1px solid var(--secondary-color);
+  box-shadow: 0 0 5px var(--secondary-color);
+}
+
+.mma-timetable-container th,
+.mma-timetable-container td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mma-timetable-container th {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+  .mma-timetable-container table,
+  .mma-timetable-container thead,
+  .mma-timetable-container tbody,
+  .mma-timetable-container th,
+  .mma-timetable-container td,
+  .mma-timetable-container tr {
+    display: block;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .mma-timetable-container thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .mma-timetable-container tr {
+    border: 1px solid var(--secondary-color);
+  }
+
+  .mma-timetable-container td {
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .mma-timetable-container td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  .mma-timetable-container td:nth-of-type(1):before {
+    content: 'Day';
+  }
+  .mma-timetable-container td:nth-of-type(2):before {
+    content: 'Time';
+  }
+  .mma-timetable-container td:nth-of-type(3):before {
+    content: 'Class';
   }
 }
