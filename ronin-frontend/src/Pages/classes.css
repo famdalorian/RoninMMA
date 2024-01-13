@@ -1,0 +1,36 @@
+/* Classes.css */
+:root {
+    --dark-red: #8b0000;
+    --dark-background: #17151c;
+    --dark-matte-yellow: #b3a375;
+  }
+  
+  .classes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--dark-background);
+    color: var(--dark-matte-yellow);
+  }
+  
+  .class-section {
+    background-color: var(--table-background);
+    border: 1px solid var(--table-border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px var(--table-border);
+  }
+  
+  .class-section h2 {
+    color: var(--dark-red);
+    margin-bottom: 10px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media only screen and (max-width: 600px) {
+    .class-section {
+      padding: 15px;
+    }
+  }
+  

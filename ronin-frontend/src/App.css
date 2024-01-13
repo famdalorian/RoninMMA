@@ -1,39 +1,70 @@
+/* Global CSS */
 :root {
-  --primary-color: #17151c; /* Dark Red */
-  --secondary-color: #7c67b1; /* Dark Red */
-  --accent-color: #ffea00; /* Yellow */
+  --dark-red: #8b0000;
+  --dark-background: #17151c;
+  --dark-matte-yellow: #b3a375;
+
   --background-color: #812020; /* White */
-  --table-background: #17151c; /* Dark Red */
+  --table-background: #460707; /* Dark Red */
   --table-border: #17151c; /* Dark Red */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color);
-  color: var(--secondary-color);
+  background-color: var(--dark-background);
+  color: var(--dark-matte-yellow);
   margin: 0;
   padding: 0;
 }
 
 /* Header */
-.mma-timetable-header {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
+.header {
+  background-color: var(--dark-red);
+  color: var(--dark-matte-yellow);
   padding: 1rem;
   text-align: center;
+  font-size: 24px;
+}
+
+/* Navigation */
+.navigation {
+  background-color: var(--dark-background);
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation a {
+  display: block;
+  color: var(--dark-matte-yellow);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navigation a:hover {
+  background-color: var(--dark-red);
 }
 
 /* Main Content */
-.mma-timetable-main {
+.main-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
 
 /* Footer */
-.mma-timetable-footer {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
+.footer {
+  background-color: var(--dark-red);
+  color: var(--dark-matte-yellow);
   padding: 1rem;
   text-align: center;
 }
@@ -52,14 +83,15 @@ body {
   text-align: left;
   padding: 0.5rem;
   border-bottom: 1px solid var(--table-border);
-  color: var(--accent-color);
+  color: var(--dark-matte-yellow);
   font-weight: bold;
   font-size: 18px;
+  text-shadow: 2px 1px 1px rgb(151, 104, 104);
 }
 
 .mma-timetable-container th {
-  background-color: var(--secondary-color);
-  color: var(--accent-color);
+  background-color: var(--dark-background);
+  color: var(--dark-matte-yellow);
 }
 
 /* Media Queries for Responsive Design */
@@ -108,25 +140,25 @@ body {
   .mma-timetable-container td:nth-of-type(3):before {
     content: 'Class';
   }
-}
 
-/* Additional Styling for Modern Look */
-.mma-timetable-container table {
-  border: 1px solid var(--table-border);
-  box-shadow: 0 0 5px var(--table-border);
-}
+  /* Additional Styling for Modern Look */
+  .mma-timetable-container table {
+    border: 1px solid var(--table-border);
+    box-shadow: 0 0 5px var(--table-border);
+  }
 
-.mma-timetable-container th,
-.mma-timetable-container td {
-  background-color: var(--table-background);
-  color: var(--accent-color);
-}
+  .mma-timetable-container th,
+  .mma-timetable-container td {
+    background-color: var(--table-background);
+    color: var(--dark-matte-yellow);
+  }
 
-.mma-timetable-container th {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
-}
+  .mma-timetable-container th {
+    background-color: var(--dark-red);
+    color: var(--dark-matte-yellow);
+  }
 
-.mma-timetable-container td {
-  border-bottom: 1px solid var(--table-border);
+  .mma-timetable-container td {
+    border-bottom: 1px solid var(--table-border);
+  }
 }
