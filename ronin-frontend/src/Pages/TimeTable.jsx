@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Pages/timetable.css';
 
 const MmaTimetable = () => {
   return (
@@ -7,64 +8,40 @@ const MmaTimetable = () => {
         <h2>Ronin MMA Liverpool Timetable</h2>
       </header>
       <main className="mma-timetable-main">
-        <table>
-          <thead>
-            <tr>
-              <th>Day</th>
-              <th>Time</th>
-              <th>Class</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowSpan="2">Monday</td>
-              <td>11 am</td>
-              <td>BJJ</td>
-            </tr>
-            <tr>
-              <td>6 pm - 8 pm</td>
-              <td>MMA</td>
-            </tr>
-            <tr>
-              <td rowSpan="2">Tuesday</td>
-              <td>11 am</td>
-              <td>Boxing</td>
-            </tr>
-            <tr>
-              <td>6 pm - 8 pm</td>
-              <td>MMA</td>
-            </tr>
-            <tr>
-              <td rowSpan="2">Wednesday</td>
-              <td>11 am</td>
-              <td>Wrestling</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td rowSpan="2">Thursday</td>
-              <td>11 am</td>
-              <td>Muay Thai</td>
-            </tr>
-            <tr>
-              <td>6 pm - 8 pm</td>
-              <td>MMA</td>
-            </tr>
-            <tr>
-              <td rowSpan="2">Friday</td>
-              <td>11 am</td>
-              <td>MMA Striking</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="timetable-cards">
+          {/* Monday */}
+          <div className="timetable-card">
+            <h3>Monday</h3>
+            <p>11 am - BJJ</p>
+            <p>6 pm - 8 pm - MMA</p>
+          </div>
+
+          {/* Tuesday */}
+          <div className="timetable-card">
+            <h3>Tuesday</h3>
+            <p>11 am - Boxing</p>
+            <p>6 pm - 8 pm - MMA</p>
+          </div>
+
+          {/* Wednesday */}
+          <div className="timetable-card">
+            <h3>Wednesday</h3>
+            <p>11 am - Wrestling</p>
+          </div>
+
+          {/* Thursday */}
+          <div className="timetable-card">
+            <h3>Thursday</h3>
+            <p>11 am - Muay Thai</p>
+            <p>6 pm - 8 pm - MMA</p>
+          </div>
+
+          {/* Friday */}
+          <div className="timetable-card">
+            <h3>Friday</h3>
+            <p>11 am - MMA Striking</p>
+          </div>
+        </div>
       </main>
       <footer className="mma-timetable-footer">
         <p>Have a great time training!</p>

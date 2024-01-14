@@ -1,0 +1,42 @@
+/* Timetable CSS */
+.mma-timetable-container {
+    background-color: var(--dark-background);
+    color: var(--dark-matte-yellow);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mma-timetable-header h2 {
+    color: var(--dark-red);
+  }
+  
+  .mma-timetable-main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .timetable-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .timetable-card {
+    background-color: var(--table-background);
+    color: var(--dark-matte-yellow);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timetable-card h3 {
+    color: var(--dark-red);
+  }
+  
+  .timetable-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

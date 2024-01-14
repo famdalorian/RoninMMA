@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home-container">
       <header className="header">
-        <h1>Welcome to Ronin MMA Liverpool</h1>
+        <h1> Ronin MMA Liverpool</h1>
         <p>Your Ultimate Destination for Mixed Martial Arts Training</p>
       </header>
       <main className="main-content">
