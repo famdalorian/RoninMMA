@@ -15,6 +15,7 @@ body {
   color: var(--dark-matte-yellow);
   margin: 0;
   padding: 0;
+  
 }
 
 /* Header */
@@ -36,6 +37,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  text-shadow: 2px 1px 1px #460707;
+
 }
 
 .navigation li {
@@ -161,4 +164,50 @@ body {
   .mma-timetable-container td {
     border-bottom: 1px solid var(--table-border);
   }
+}
+/* Navbar CSS */
+.navbar {
+  background-color: var(--dark-red);
+  color: var(--dark-matte-yellow);
+  padding: 1rem;
+  text-shadow: 2px 1px 1px #460707;
+
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--dark-matte-yellow);
+  text-shadow: 2px 1px 1px #460707;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark-matte-yellow);
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 2px 1px 1px #460707;
+
+}
+
+.nav-link:hover {
+  color: var(--dark-background);
+  background-color: var(--dark-red);
+  text-shadow: 2px 1px 1px #431414;
+
 }

@@ -1,0 +1,69 @@
+/* Navbar CSS */
+.navbar {
+    background-color: var(--dark-red);
+    padding: 1rem 0;
+    text-shadow: 2px 1px 1px #460707;
+
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    color: var(--dark-matte-yellow);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: var(--dark-matte-yellow);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: var(--dark-red);
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-logo {
+      margin-bottom: 10px;
+    }
+  
+    .nav-menu {
+      width: 100%;
+      justify-content: space-around;
+    }
+  
+    .nav-item {
+      margin: 0;
+    }
+  
+    .nav-link {
+      font-size: 16px;
+    }
+  }
+  

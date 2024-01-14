@@ -1,8 +1,9 @@
 // Home.jsx
 import React from 'react';
 import '../Pages/Home.css'
-import TimeTable from '../Pages/TimeTable'
-import Classes from '../Pages/Classes';
+import HeroSection from '../components/HeroSection';
+import HeroSection2 from '../components/HeroSection2';
+
 function Home() {
   return (
     <div className="home-container">
@@ -10,10 +11,8 @@ function Home() {
         <h1>Welcome to Ronin MMA Liverpool</h1>
         <p>Your Ultimate Destination for Mixed Martial Arts Training</p>
       </header>
-
       <main className="main-content">
-        <TimeTable />
-        <Classes />
+       <HeroSection />
 
         <section className="features-section">
           <h2>Why Choose Ronin MMA?</h2>
@@ -53,6 +52,8 @@ function Home() {
           </form>
         </section>
       </main>
+      <HeroSection2 />
+
 
       <footer className="footer">
         <p>Copyright &copy; 2024 Ronin MMA Liverpool. cc0.</p>
