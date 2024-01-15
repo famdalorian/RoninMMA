@@ -26,7 +26,83 @@
     color: var(--dark-red);
     margin-bottom: 10px;
   }
-  
+  .class-boxing{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin2.jpeg);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-thai{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin4.png);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-mma{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin3.jpeg);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-wrestling{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin5.png);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-bjj{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin6.png);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-gym{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin7.png);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
+  .class-mma{
+    background-color: var(--dark-background);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--table-border);
+    background-image: url(../../public/images/ronin3.jpeg);
+    width: 45vh;
+    height: 45vh;
+    background-size: contain;
+  }
   /* Media Queries for Responsive Design */
   @media only screen and (max-width: 600px) {
     .class-section {
