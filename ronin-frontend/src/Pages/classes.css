@@ -92,6 +92,11 @@
     height: 45vh;
     background-size: contain;
   }
+  .class-black{
+    color: #17151c;
+    text-shadow: #b3a375 1px 1px 1px;
+    font-size:xx-large;
+  }
   .class-mma{
     background-color: var(--dark-background);
     padding: 20px;
