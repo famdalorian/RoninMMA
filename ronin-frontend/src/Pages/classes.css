@@ -69,6 +69,8 @@
     width: 45vh;
     height: 45vh;
     background-size: contain;
+    text-shadow: #17151c 1px 1px 1px;
+    font-size: xx-large;
   }
   .class-bjj{
     background-color: var(--dark-background);
@@ -79,6 +81,8 @@
     background-image: url(../../public/images/ronin6.png);
     width: 45vh;
     height: 45vh;
+    font-size: xx-large;
+    text-shadow: #17151c 1px 1px 1px;
     background-size: contain;
   }
   .class-gym{
@@ -91,6 +95,8 @@
     width: 45vh;
     height: 45vh;
     background-size: contain;
+    text-shadow: #17151c 1px 1px 1px;
+    font-size: xx-large;
   }
   .class-black{
     color: #17151c;
@@ -107,6 +113,7 @@
     width: 45vh;
     height: 45vh;
     background-size: contain;
+    font-size: xx-large;
   }
   /* Media Queries for Responsive Design */
   @media only screen and (max-width: 600px) {
