@@ -5,7 +5,7 @@ const MmaTimetable = () => {
   return (
     <div className="mma-timetable-container">
       <header className="mma-timetable-header">
-        <h2>Ronin MMA Liverpool Timetable</h2>
+        <h2>Forth Muay Thai Time Table</h2>
       </header>
       <main className="mma-timetable-main">
         <div className="timetable-cards">

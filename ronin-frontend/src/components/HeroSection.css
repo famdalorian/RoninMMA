@@ -1,6 +1,6 @@
 /* Hero Section CSS */
 .hero-section {
-    background-image: url('../../public/images/ronin1.jpeg'); /* Add your image path here */
+    background-image: url('../../public/images/ronin1.png'); /* Add your image path here */
     background-size: cover;
     background-position:top center;
     color: var(--dark-matte-yellow);
@@ -16,14 +16,14 @@
   .hero-content h1 {
     font-size: 42px;
     margin-bottom: 1px;
-    text-shadow: 2px 1px 1px #460707;
+    text-shadow: 2px 1px 1px #6359;
 
   }
   
   .hero-content p {
     font-size: 18px;
     line-height: 1.5;
-    text-shadow: 2px 1px 1px #460707;
+    text-shadow: 2px 1px 1px #6359;
 
   }
   
@@ -39,7 +39,7 @@
   }
   /* Hero Section 2 CSS */
 .hero-section2 {
-    background-image: url('../../public/images/ronin1.jpeg'); /* Add your second image path here */
+    background-image: url('../../public/images/ronin1.png'); /* Add your second image path here */
     background-size: cover;
     background-position: bottom;
     color: var(--dark-matte-yellow);
@@ -50,21 +50,21 @@
   .hero-content2 {
     max-width: 800px;
     margin: 0 auto;
-    text-shadow: 2px 1px 1px #460707;
+    text-shadow: 2px 1px 1px #6359;
 
   }
   
   .hero-content2 h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    text-shadow: 2px 1px 1px #460707;
+    text-shadow: 2px 1px 1px #6359;
 
   }
   
   .hero-content2 p {
     font-size: 18px;
     line-height: 1.5;
-    text-shadow: 2px 1px 1px #460707;
+    text-shadow: 2px 1px 1px #6359;
 
   }
   

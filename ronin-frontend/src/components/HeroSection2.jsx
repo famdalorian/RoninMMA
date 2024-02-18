@@ -5,8 +5,8 @@ const HeroSection2 = () => {
   return (
     <section className="hero-section2">
       <div className="hero-content2">
-        <h1>Ronin MMA Liverpool</h1>
-        <p>Your Journey to Martial Arts Excellence Starts Here</p>
+        <h1>Forth Muay Thai</h1>
+        <p>Your Journey to Excellence Starts Here</p>
       </div>
     </section>
   );

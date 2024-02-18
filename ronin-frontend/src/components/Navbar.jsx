@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          Ronin MMA 
+          Forth Muay Thai
         </Link>
 
         <ul className="nav-menu">

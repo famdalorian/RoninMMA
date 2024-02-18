@@ -1,8 +1,8 @@
 /* Classes.css */
 :root {
-    --dark-red: #8b0000;
+    --dark-red: #0d5a53;
     --dark-background: #17151c;
-    --dark-matte-yellow: #b3a375;
+    --dark-matte-yellow: #758083;
   }
   
   .classes-container {
@@ -32,7 +32,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin2.jpeg);
+    background-image: url(../../public/images/ronin2.png);
     width: 45vh;
     height: 45vh;
     background-size: contain;
@@ -54,7 +54,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin3.jpeg);
+    background-image: url(../../public/images/ronin3.png);
     width: 45vh;
     height: 45vh;
     background-size: contain;
@@ -69,7 +69,7 @@
     width: 45vh;
     height: 45vh;
     background-size: contain;
-    text-shadow: #17151c 1px 1px 1px;
+    text-shadow:#619912 1px 1px 1px;
     font-size: xx-large;
   }
   .class-bjj{
@@ -109,16 +109,14 @@
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin3.jpeg);
+    background-image: url(../../public/images/ronin3.png);
     width: 45vh;
     height: 45vh;
     background-size: contain;
     font-size: xx-large;
   }
-  /* Media Queries for Responsive Design */
   @media only screen and (max-width: 600px) {
     .class-section {
       padding: 15px;
     }
   }
-  

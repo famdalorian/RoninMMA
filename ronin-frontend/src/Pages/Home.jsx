@@ -8,14 +8,14 @@ function Home() {
   return (
     <div className="home-container">
       <header className="header">
-        <h1> Ronin MMA Liverpool</h1>
+        <h1> Forth Muay Thai</h1>
         <p>Your Ultimate Destination for Mixed Martial Arts Training</p>
       </header>
       <main className="main-content">
        <HeroSection />
 
         <section className="features-section">
-          <h2>Why Choose Ronin MMA?</h2>
+          <h2>Why Choose Forth Muay Thai?</h2>
           <div className="feature">
             <h3>Expert Instructors</h3>
             <p>Train with experienced and dedicated instructors in each discipline.</p>
@@ -56,7 +56,7 @@ function Home() {
 
 
       <footer className="footer">
-        <p>Copyright &copy; 2024 Ronin MMA Liverpool. cc0.</p>
+        <p>Copyright &copy; 2024 Forth Muay Thai Liverpool. cc0.</p>
       </footer>
     </div>
   );
