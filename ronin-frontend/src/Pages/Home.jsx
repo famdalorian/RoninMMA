@@ -9,7 +9,9 @@ function Home() {
     <div className="home-container">
       <header className="header">
         <h1> Forth Muay Thai</h1>
-        <p>Your Ultimate Destination for Mixed Martial Arts Training</p>
+        <div className="logo"></div>
+        <p>Your Ultimate Destination for Elite Muay Thai Training</p>
+        <p>From Beginer To Professional </p>
       </header>
       <main className="main-content">
        <HeroSection />
@@ -18,13 +20,10 @@ function Home() {
           <h2>Why Choose Forth Muay Thai?</h2>
           <div className="feature">
             <h3>Expert Instructors</h3>
-            <p>Train with experienced and dedicated instructors in each discipline.</p>
+            <p>Train with A experienced and dedicated instructor.</p>
           </div>
 
-          <div className="feature">
-            <h3>State-of-the-Art Facilities</h3>
-            <p>Our gym is equipped with top-notch facilities to enhance your training experience.</p>
-          </div>
+         
 
           <div className="feature">
             <h3>Flexible Schedule</h3>
@@ -32,15 +31,13 @@ function Home() {
           </div>
 
           <div className="feature">
-            <h3>All Skill Levels Welcome</h3>
+            <h3>ALL Skill Levels Welcome</h3>
             <p>Whether you're a beginner or an advanced practitioner, our classes cater to all levels.</p>
           </div>
         </section>
 
-        {/* Lead Capture Form */}
         <section className="lead-capture-section">
           <h2>Join Us Today!</h2>
-          <p>Fill out the form below to get started on your MMA journey.</p>
           <form>
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" required />

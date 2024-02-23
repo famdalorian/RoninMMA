@@ -10,11 +10,14 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--dark-background);
   color: var(--dark-matte-yellow);
   margin: 0;
   padding: 0;
+  background-image: url(../public/images/forth.png);
+  background-position: auto;
+  background-size: 333px;
 }
 
 /* Header */
@@ -70,7 +73,6 @@ body {
   text-align: center;
 }
 
-
 /* Navbar CSS */
 .navbar {
   background-color: var(--dark-red);
@@ -88,7 +90,6 @@ body {
 .nav-logo {
   font-size: 24px;
   text-decoration: none;
-  color: var(--dark-matte-yellow);
   text-shadow: 2px 1px 1px #6359;
 }
 

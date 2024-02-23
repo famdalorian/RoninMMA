@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Assuming you're using React Router
+import { Link } from 'react-router-dom'; 
 import './Navbar.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <div className="logo"></div>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
           Forth Muay Thai
