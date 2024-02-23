@@ -7,10 +7,13 @@ import HeroSection2 from '../components/HeroSection2';
 function Home() {
   return (
     <div className="home-container">
-      <header className="header">
-        <h1> Forth Muay Thai</h1>
-        <div className="logo"></div>
+      <header className="header">        
+
+        <h1> Forth</h1>
+          
+          <h2> Muay Thai</h2>
         <p>Your Ultimate Destination for Elite Muay Thai Training</p>
+        <div className="logo"></div>
         <p>From Beginer To Professional </p>
       </header>
       <main className="main-content">

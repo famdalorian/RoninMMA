@@ -3,7 +3,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-
+display: flex;
+flex-direction: column;
     text-shadow: 2px 1px 1px #460707;
 
   }
@@ -21,14 +22,16 @@
     text-align: center;
     font-size: 24px;
     text-shadow: 2px 1px 1px #6359;
-   
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px #6359;
 
-
+    opacity: 50%;
   }
   
   .main-content {
     padding: 1rem;
   }
+  
   
   .features-section {
     margin-top: 2rem;

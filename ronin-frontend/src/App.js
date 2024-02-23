@@ -6,6 +6,7 @@ import Classes from '../src/Pages/Classes';
 import Timetable from '../src/Pages/TimeTable';
 import Shop from '../src/Pages/Shop';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Timetable" element={<Timetable />} />
         <Route path="/Shop" element={<Shop />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

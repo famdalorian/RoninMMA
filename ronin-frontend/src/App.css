@@ -1,12 +1,10 @@
 /* Global CSS */
 :root {
-  --dark-red: #05766c;
+  --dark-red: #320000;
+  --teal: #05766c;
+  --purple: #5b007a;
   --dark-background: #17151c;
   --dark-matte-yellow: #b3a375;
-
-  --background-color: #04675a; /* White */
-  --table-background: #064147; /* Dark Red */
-  --table-border: #5b536f; /* Dark Red */
 }
 
 body {
@@ -39,7 +37,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  text-shadow: 2px 1px 1px #073846;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .navigation li {
@@ -55,7 +53,7 @@ body {
 }
 
 .navigation a:hover {
-  background-color: var(--dark-red);
+  background-color: var(--teal);
 }
 
 /* Main Content */
@@ -78,7 +76,7 @@ body {
   background-color: var(--dark-red);
   color: var(--dark-matte-yellow);
   padding: 1rem;
-  text-shadow: 2px 1px 1px #619912;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -90,7 +88,7 @@ body {
 .nav-logo {
   font-size: 24px;
   text-decoration: none;
-  text-shadow: 2px 1px 1px #6359;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu {
@@ -107,11 +105,11 @@ body {
   color: var(--dark-matte-yellow);
   font-weight: bold;
   font-size: 16px;
-  text-shadow: 2px 1px 1px #6359;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-link:hover {
   color: var(--dark-background);
-  background-color: var(--dark-red);
-  text-shadow: 2px 1px 1px #127e99;
+  background-color: var(--teal);
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
