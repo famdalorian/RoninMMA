@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="logo"></div>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          Forth Muay Thai
+        
         </Link>
 
         <ul className="nav-menu">
