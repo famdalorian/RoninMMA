@@ -1,75 +1,78 @@
 /* Navbar CSS */
 .navbar {
-    background-color: var(--dark-red);
-    padding: 1rem 0;
-    text-shadow: 2px 1px 1px #619912;
+  padding: 1rem 0;
+  text-shadow: 2px 1px 1px var(--purple); /* Changed text shadow color to purple */
+  background-color: var(--teal); /* Changed background color to teal */
+  color: darkorchid;
+}
 
-  }
-  
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: var(--dark-matte-yellow);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: purple
+  ;
+  text-decoration: none;
+  font-size: 28px;
+  text-shadow: cyan 1px 1px 1px;
+}
+
+.nav-link:hover {
+  color: var(--red); /* Changed hover color to red */
+}
+
+.logo {
+  background-image: url(../../public/images/forth.png);
+  width: 15vh;
+  height: 15vh;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
   .nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .nav-logo {
-    color: var(--dark-matte-yellow);
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
+    margin-bottom: 10px;
   }
-  
+
   .nav-menu {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    justify-content: space-around;
   }
-  
+
   .nav-item {
-    margin-right: 20px;
+    margin: 0;
   }
-  
+
   .nav-link {
-    color: var(--dark-matte-yellow);
-    text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
   }
-  
-  .nav-link:hover {
-    color: var(--dark-red);
-  }
-  
-  /* Media Queries for Responsive Design */
-  @media only screen and (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .nav-logo {
-      margin-bottom: 10px;
-    }
-  
-    .nav-menu {
-      width: 100%;
-      justify-content: space-around;
-    }
-  
-    .nav-item {
-      margin: 0;
-    }
-  
-    .nav-link {
-      font-size: 16px;
-    }
-  }
-  .logo{
-background-image: url(../../public/images/forth.png);
-width: 15vh;
-height: 15vh;
-background-size: 100%;
-border-radius: 50%;
-  }
+}

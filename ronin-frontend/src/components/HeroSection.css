@@ -17,7 +17,7 @@
   font-size: 42px;
   margin-bottom: 10px; /* Adjusted margin for spacing */
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5); /* Softened text shadow */
-  color: var(--teal); /* Changed color to teal */
+  color: var(teal); /* Changed color to teal */
 }
 
 .hero-content p {
@@ -56,14 +56,14 @@
 .hero-content2 h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5); /* Softened text shadow */
-  color: var(--purple); /* Changed color to purple */
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 1.5); /* Softened text shadow */
+  color: var(purple); /* Changed color to purple */
 }
 
 .hero-content2 p {
   font-size: 18px;
   line-height: 1.5;
-  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5); /* Softened text shadow */
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 1.5); /* Softened text shadow */
 }
 
 /* Adjust styles for smaller screens if needed */

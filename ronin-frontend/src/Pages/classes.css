@@ -1,122 +1,63 @@
-/* Classes.css */
+/* Classes CSS */
 :root {
-    --dark-red: #0d5a53;
-    --dark-background: #17151c;
-    --dark-matte-yellow: #758083;
-  }
-  
-  .classes-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: var(--dark-background);
-    color: var(--dark-matte-yellow);
-  }
-  
+  --teal: #05766c;
+  --purple: #5b007a;
+  --dark-background: #17151c;
+  --dark-matte-yellow: #758083;
+}
+
+.classes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  opacity: 0.89; /* Adjusted opacity for better readability */
+}
+
+.class-section {
+  background-color: var(--teal); /* Changed background color to teal */
+  border: 1px solid var(--teal); /* Matched border color to background color */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px var(--teal); /* Adjusted box shadow color */
+}
+
+.class-section h2 {
+  color: var(--purple); /* Changed color to purple */
+  margin-bottom: 10px;
+}
+
+.class-boxing,
+.class-thai,
+.class-mma,
+.class-wrestling,
+.class-bjj,
+.class-gym,
+.class-mma,
+.class-black {
+  background-color: var(--dark-background);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--teal); /* Matched border color to teal */
+  width: 45vh;
+  height: 45vh;
+  background-size: contain;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Softened text shadow */
+}
+
+.class-wrestling,
+.class-bjj,
+.class-gym,
+.class-black {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Softened text shadow */
+  font-size: xx-large;
+}
+
+/* Adjust styles for smaller screens if needed */
+@media only screen and (max-width: 600px) {
   .class-section {
-    background-color: var(--table-background);
-    border: 1px solid var(--table-border);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 5px var(--table-border);
+    padding: 15px;
   }
-  
-  .class-section h2 {
-    color: var(--dark-red);
-    margin-bottom: 10px;
-  }
-  .class-boxing{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin2.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-  }
-  .class-thai{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin4.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-  }
-  .class-mma{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin3.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-  }
-  .class-wrestling{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin5.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-    text-shadow:#619912 1px 1px 1px;
-    font-size: xx-large;
-  }
-  .class-bjj{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin6.png);
-    width: 45vh;
-    height: 45vh;
-    font-size: xx-large;
-    text-shadow: #17151c 1px 1px 1px;
-    background-size: contain;
-  }
-  .class-gym{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin7.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-    text-shadow: #17151c 1px 1px 1px;
-    font-size: xx-large;
-  }
-  .class-black{
-    color: #17151c;
-    text-shadow: #b3a375 1px 1px 1px;
-    font-size:xx-large;
-  }
-  .class-mma{
-    background-color: var(--dark-background);
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--table-border);
-    background-image: url(../../public/images/ronin3.png);
-    width: 45vh;
-    height: 45vh;
-    background-size: contain;
-    font-size: xx-large;
-  }
-  @media only screen and (max-width: 600px) {
-    .class-section {
-      padding: 15px;
-    }
-  }
+}

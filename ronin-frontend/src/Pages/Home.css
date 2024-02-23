@@ -1,100 +1,94 @@
 /* Home CSS */
 .home-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-display: flex;
-flex-direction: column;
-    text-shadow: 2px 1px 1px #460707;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-shadow: 2px 1px 1px #460707;
+  color: var(--dark-matte-yellow);
+  font-size: 48px;
+}
 
-  }
-  h1{
-    text-shadow: 2px 1px 1px #460707;
-    color: var(--dark-matte-yellow);
-    font-size: 48px;
-    
-  }
-  
-  .header {
-    background-color: var(--dark-red);
-    color: var(--dark-matte-yellow);
-    padding: 1rem;
-    text-align: center;
-    font-size: 24px;
-    text-shadow: 2px 1px 1px #6359;
-    border-radius: 10px;
-    box-shadow: 2px 1px 1px #6359;
+.header {
+  background-color: var(--dark-red);
+  color: var(--dark-matte-yellow);
+  padding: 1rem;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 1px 1px #6359;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px #6359;
 
-    opacity: 50%;
-  }
-  
-  .main-content {
-    padding: 1rem;
-  }
-  
-  
-  .features-section {
-    margin-top: 2rem;
-  }
-  
-  .feature {
-    margin-bottom: 1.5rem;
-  }
-  
+  opacity: 50%;
+}
+
+.main-content {
+  padding: 1rem;
+}
+
+.features-section {
+  margin-top: 2rem;
+}
+
+.feature {
+  margin-bottom: 1.5rem;
+}
+
+.lead-capture-section {
+  margin-top: 2rem;
+}
+
+/* Lead Capture Form */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+label {
+  color: var(--dark-red);
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+button {
+  background-color: var(--dark-red);
+  color: var(--dark-matte-yellow);
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  text-shadow: 2px 1px 1px #6359;
+}
+.logo {
+  height: 10vh;
+  width: 10vh;
+  size: 100%;
+}
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  .header,
+  .main-content,
+  .features-section,
   .lead-capture-section {
-    margin-top: 2rem;
-  }
-  
-  /* Lead Capture Form */
-  form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  label {
-    color: var(--dark-red);
-  }
-  
-  input {
     padding: 0.5rem;
-    font-size: 16px;
   }
-  
-  button {
-    background-color: var(--dark-red);
-    color: var(--dark-matte-yellow);
-    padding: 0.5rem 1rem;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
-    text-shadow: 2px 1px 1px #6359;
 
+  .header {
+    font-size: 20px;
   }
-  .logo{
-    height: 10vh;
-    width: 10vh;
-    size: 100%;
+
+  .lead-capture-section {
+    margin-top: 1rem;
   }
-  /* Media Queries for Responsive Design */
-  @media only screen and (max-width: 768px) {
-    .header,
-    .main-content,
-    .features-section,
-    .lead-capture-section {
-      padding: 0.5rem;
-    }
-  
-    .header {
-      font-size: 20px;
-    }
-  
-    .lead-capture-section {
-      margin-top: 1rem;
-    }
-  
-    form {
-      grid-template-columns: 1fr;
-    }
+
+  form {
+    grid-template-columns: 1fr;
   }
-  
+}
