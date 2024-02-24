@@ -3,6 +3,7 @@ import React from 'react';
 import '../Pages/Home.css'
 import HeroSection from '../components/HeroSection';
 import HeroSection2 from '../components/HeroSection2';
+import { IconName } from "react-icons/fa";
 
 function Home() {
   return (
